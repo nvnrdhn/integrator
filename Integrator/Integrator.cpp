@@ -14,7 +14,7 @@ int main()
 	std::ifstream config("config");
 	if (!config.is_open()) {
 		std::cout << "Config file not found!" << std::endl;
-		getchar();
+		std::this_thread::sleep_for(std::chrono::seconds(3));
 		return 0;
 	}
 	std::string nrp;
@@ -68,6 +68,7 @@ int main()
 			std::this_thread::sleep_for(std::chrono::seconds(timeout));
 		}
 	}
+	std::this_thread::sleep_for(std::chrono::seconds(3));
 	return 0;
 }
 
