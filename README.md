@@ -12,7 +12,7 @@ A simple auto-FRS program using C++ Requests library ([cpr](https://whoshuu.gith
 5. Run `Integrator.exe`
 
 # Courses
-You can add courses simply by adding `course_code|class|curriculum_year|department_code|0` to your `courses` file, each course is separated by a new line. Use `_` if there is only one class available.
+You can add courses simply by adding `course_code|class|curriculum_year|department_code` to your `courses` file, each course is separated by a new line. Use `_` if there is only one class available.
 
 Example:
 ```
