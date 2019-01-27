@@ -16,9 +16,9 @@ You can add courses simply by adding `course_code|class|curriculum_year|departme
 
 Example:
 ```
-IF4101|A|2018|51100|0
-KI1411|_|2014|51100|0
-KI1440|C|2014|51100|0
+IF4101|A|2018|51100
+KI1411|_|2014|51100
+KI1440|C|2014|51100
 ```
 
 # Config
