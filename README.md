@@ -1,7 +1,7 @@
 # Integrator
 A simple auto-FRS program using C++ Requests library ([cpr](https://whoshuu.github.io/cpr/)).
 
-**Untested, use at your own risk!**
+**Tested on Genap 2018/2019**
 
 # How to use
 1. Login to [integra](https://integra.its.ac.id/)
@@ -12,13 +12,13 @@ A simple auto-FRS program using C++ Requests library ([cpr](https://whoshuu.gith
 5. Run `Integrator.exe`
 
 # Courses
-You can add courses simply by adding `course_code|class|curriculum_year|department_code` to your `courses` file, each course is separated by a new line. Use `_` if there is only one class available.
+You can add courses simply by adding `course_code|class|curriculum_year|department_code|0` to your `courses` file, each course is separated by a new line. Use `_` if there is only one class available.
 
 Example:
 ```
-IF4101|A|2018|51100
-KI1411|_|2014|51100
-KI1440|C|2014|51100
+IF4101|A|2018|51100|0
+KI1411|_|2014|51100|0
+KI1440|C|2014|51100|0
 ```
 
 # Config
